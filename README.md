@@ -19,7 +19,9 @@ It will train a CNN model on the provided dataset and save the trained model as 
 To predict the emotion of a new image, load the saved model using from tensorflow.keras.models import load_model. Then, preprocess the image using OpenCV and resize it to 256x256 pixels using tf.image.resize. Finally, feed the preprocessed image to the loaded model's predict function.
 
 The model achieved high recall and accuracy rates, approximately 1.0. You can see the graphs of loss and accuracy during training in the following figures:
+
 Loss Graph:
+
 ![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/0395bd0b-1fcb-4f65-8bea-b883d79e9831)
 
 Accuracy Graph:
