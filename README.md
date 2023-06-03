@@ -12,10 +12,19 @@ To run this code, you will need the following installed:
     Matplotlib
 
 Usage
+The code can be run in any Python environment (like Jupyter Notebook or Google Colab). After setting up the environment and downloading the dataset, execute the code cell by cell.
 
-    Clone the repository to your local machine.
-    Navigate to the directory where the code is located.
-    Run the script.
+It will train a CNN model on the provided dataset and save the trained model as 'emotiondetectionmodel.h5' in the 'models' directory. You can use this saved model for prediction on new images.
+
+To predict the emotion of a new image, load the saved model using from tensorflow.keras.models import load_model. Then, preprocess the image using OpenCV and resize it to 256x256 pixels using tf.image.resize. Finally, feed the preprocessed image to the loaded model's predict function.
+
+The model achieved high recall and accuracy rates, approximately 1.0. You can see the graphs of loss and accuracy during training in the following figures:
+Loss Graph:
+![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/0395bd0b-1fcb-4f65-8bea-b883d79e9831)
+
+Accuracy Graph:
+![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/9adb49b7-a1cf-4c9c-ac7c-c3e540f71512)
+
 
 The script will perform the following steps:
 
