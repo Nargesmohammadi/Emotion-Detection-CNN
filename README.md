@@ -2,7 +2,8 @@
 Emotion Detection CNN
 
 This project aims to classify images as happy or sad using a convolutional neural network (CNN) built with TensorFlow. The model is designed to take in images of individuals and predict the emotion they are expressing.
-Prerequisites
+
+## Prerequisites
 
 To run this code, you will need the following installed:
 
@@ -11,7 +12,7 @@ To run this code, you will need the following installed:
     OpenCV
     Matplotlib
 
-Usage
+## Usage
 
 The code can be run in any Python environment (like Jupyter Notebook or Google Colab). After setting up the environment and downloading the dataset, execute the code cell by cell.
 
@@ -28,7 +29,7 @@ The script will perform the following steps:
     Evaluate the model on the test set and print out accuracy, precision, and recall.
     Use the trained model to predict the emotions in any new image.
 
-Model Architecture
+## Model Architecture
 
 The CNN model has the following architecture:
 
@@ -44,7 +45,7 @@ The CNN model has the following architecture:
     Dense layer: 1 node, activation='sigmoid'
 
 
-Training
+## Training
 
 To train the CNN model, run the emotion_detection_cnn.ipynb notebook. The notebook uses TensorFlow's image_dataset_from_directory function to load the dataset and preprocess the images. The model architecture consists of three convolutional layers followed by a flattening layer, two dense layers, and an output layer with a sigmoid activation function. The model was trained using the Adam optimizer and binary cross-entropy loss function.
 After training, the model's performance was evaluated on a test set using metrics such as precision, recall, and accuracy.
@@ -60,11 +61,11 @@ Accuracy Graph:
 ![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/9adb49b7-a1cf-4c9c-ac7c-c3e540f71512)
 
 
-Prediction
+## Prediction
 
 To use the trained model to make predictions on new images, you can load the model from the saved emodetectionmodel.h5 file and pass the image through the model. An example of predicting the emotion of a single image is provided in the notebook.
 
-Results
+## Results
 
 The trained model achieved an accuracy of XX% on the test set. An example of a correctly predicted image is shown below:
 
@@ -72,6 +73,6 @@ The trained model achieved an accuracy of XX% on the test set. An example of a c
 
 ![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/345afde1-5d42-4d8e-bd56-b3990c456aba)
 
-Conclusion
+## Conclusion
 
 In conclusion, this project demonstrates the use of CNNs for emotion detection in images. With further tuning and refinement, the model can potentially be used for real-world applications such as mood analysis in customer service or mental health settings.
