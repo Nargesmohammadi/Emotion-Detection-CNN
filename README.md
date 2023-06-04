@@ -1,5 +1,4 @@
 # Emotion-Detection-CNN
-Emotion Detection CNN
 
 This project aims to classify images as happy or sad using a convolutional neural network (CNN) built with TensorFlow. The model is designed to take in images of individuals and predict the emotion they are expressing.
 
@@ -52,11 +51,11 @@ After training, the model's performance was evaluated on a test set using metric
 
 The model achieved high recall and accuracy rates, approximately 1.0. You can see the graphs of loss and accuracy during training in the following figures:
 
-Loss Graph:
+### Loss Graph:
 
 ![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/0395bd0b-1fcb-4f65-8bea-b883d79e9831)
 
-Accuracy Graph:
+### Accuracy Graph:
 
 ![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/9adb49b7-a1cf-4c9c-ac7c-c3e540f71512)
 
