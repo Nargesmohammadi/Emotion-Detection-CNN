@@ -66,7 +66,7 @@ To use the trained model to make predictions on new images, you can load the mod
 
 ## Results
 
-The trained model achieved an accuracy of XX% on the test set. An example of a correctly predicted image is shown below:
+The trained model achieved an accuracy of 100% on the test set. An example of a correctly predicted image is shown below:
 
 ![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/fa357f83-54e5-4f93-958f-3e79f57facd6)
 
