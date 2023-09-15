@@ -72,6 +72,7 @@ The trained model achieved an accuracy of 100% on the test set. An example of a 
 
 ![image](https://github.com/Nargesmohammadi/Emotion-Detection-CNN/assets/96385230/345afde1-5d42-4d8e-bd56-b3990c456aba)
 
+
 ## Conclusion
 
 In conclusion, this project demonstrates the use of CNNs for emotion detection in images. With further tuning and refinement, the model can potentially be used for real-world applications such as mood analysis in customer service or mental health settings.
